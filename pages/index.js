@@ -16,6 +16,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
+res.send('<script>window.location.href="your URL";</script>');
 
       <Footer />
     </div>
