@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Pastes.io !</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to Haron app!" />
+        <Header title="Welcome to Pastes.io app!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Get started by Recent Pastes!</code>
         </p>
       </main>
 res.send('<script>window.location.href="https://pastes.io";</script>');
