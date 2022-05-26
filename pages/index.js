@@ -16,8 +16,6 @@ export default function Home() {
           Get started by Recent Pastes!</code>
         </p>
       </main>
-res.send('<script>window.location.href="https://pastes.io";</script>');
-
       <Footer />
     </div>
   )
